@@ -1,0 +1,35 @@
+{
+  "name": "local-tunnel",
+  "version": "1.0.0",
+  "description": "Expose localhost to internet via SSH reverse tunnel. ngrok alternative requiring your own server. Zero dependencies.",
+  "type": "module",
+  "bin": {
+    "local-tunnel": "./index.js",
+    "ltunnel": "./index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "developer-tools",
+    "cli",
+    "nodejs",
+    "zero-dependencies",
+    "tunnel",
+    "ssh",
+    "localhost",
+    "networking",
+    "ngrok-alternative",
+    "port-forwarding"
+  ],
+  "license": "MIT",
+  "author": "NickCirv",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickCirv/local-tunnel.git"
+  },
+  "homepage": "https://github.com/NickCirv/local-tunnel#readme",
+  "bugs": {
+    "url": "https://github.com/NickCirv/local-tunnel/issues"
+  }
+}
